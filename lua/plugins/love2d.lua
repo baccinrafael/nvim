@@ -3,7 +3,9 @@ return {
     "S1M0N38/love2d.nvim",
     version = "3.*",
     event = "VeryLazy",
-    opts = {},
+    opts = {
+      { output = false },
+    },
     keys = {
       { "<leader>v", "", desc = "LÖVE" },
       { "<leader>vr", "<cmd>Love run<cr>", desc = "Run LÖVE" },
