@@ -7,7 +7,6 @@ return {
         "kanagawa",
         "kanagawa-dragon",
         "kanagawa-lotus",
-        "kanagawa-wave",
         "cyberdream",
         "terafox",
         "nightfox",
@@ -17,6 +16,8 @@ return {
         "synthwave84",
         "vscode",
         "vague",
+        "luna",
+        "kanagawa-lotus",
       },
     })
   end,
