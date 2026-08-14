@@ -6,6 +6,5 @@ vim.opt.scrolloff = 20
 vim.g.vimsyn_embed = "alpPrj"
 vim.opt.undofile = true
 vim.opt.fillchars:append(",eob: ")
-vim.opt.numberwidth = 1
-vim.opt.signcolumn = "yes:1"
-vim.opt.statuscolumn = "%l%s"
+vim.opt.numberwidth = 4
+vim.opt.signcolumn = "yes:2"
