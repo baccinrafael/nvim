@@ -8,3 +8,6 @@ vim.opt.undofile = true
 vim.opt.fillchars:append(",eob: ")
 vim.opt.numberwidth = 4
 vim.opt.signcolumn = "yes:2"
+vim.opt.cmdheight = 0
+vim.opt.laststatus = 3 -- usa barra global (ou '2' para uma barra por janela)
+vim.opt.winbar = nil -- remove a barra superior nativa

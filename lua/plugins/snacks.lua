@@ -5,9 +5,18 @@ return {
     lazy = false,
     ---@type snacks.Config
     opts = {
+      dashboard = {
+        header = [[
+███╗   ██╗███████╗ ██████╗ ██╗   ██╗██╗███╗   ███╗
+████╗  ██║██╔════╝██╔═══██╗██║   ██║██║████╗ ████║
+██╔██╗ ██║█████╗  ██║   ██║██║   ██║██║██╔████╔██║
+██║╚██╗██║██╔══╝  ██║   ██║╚██╗ ██╔╝██║██║╚██╔╝██║
+██║ ╚████║███████╗╚██████╔╝ ╚████╔╝ ██║██║ ╚═╝ ██║
+╚═╝  ╚═══╝╚══════╝ ╚═════╝   ╚═══╝  ╚═╝╚═╝     ╚═╝
+]],
+      },
       dim = { enabled = false },
       bigfile = { enabled = true },
-      dashboard = { enabled = true },
       explorer = { enabled = false },
       indent = { enabled = false },
       input = { enabled = true },

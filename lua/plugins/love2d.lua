@@ -4,7 +4,7 @@ return {
     version = "3.*",
     event = "VeryLazy",
     opts = {
-      { output = false },
+      output = false,
     },
     keys = {
       { "<leader>v", "", desc = "LÖVE" },
