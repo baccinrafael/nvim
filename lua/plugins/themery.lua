@@ -6,8 +6,9 @@ return {
       themes = {
         "kanagawa",
         "kanagawa-dragon",
-        "kanagawa-lotus",
+        "moonfly",
         "cyberdream",
+        "citruszest",
         "terafox",
         "nightfox",
         "carbonfox",

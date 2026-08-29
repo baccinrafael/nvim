@@ -29,7 +29,7 @@ return {
       -- See :h blink-cmp-config-keymap for defining your own keymap
       keymap = {
         preset = "default",
-        ["<C-cr>"] = { "select_and_accept" },
+        ["<CR>"] = { "accept", "fallback" },
       },
 
       -- (Default) Only show the documentation popup when manually triggered
